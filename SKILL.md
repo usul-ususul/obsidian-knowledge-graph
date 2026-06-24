@@ -1,6 +1,6 @@
 ---
 name: obsidian-knowledge-graph
-description: Organize notes, sources, study material, research, and personal knowledge into an Obsidian knowledge graph. Use when the user asks to structure Obsidian notes, create or revise a vault/MOC, turn content into Topic/Resource/Concept notes, add bidirectional links, reduce folder overuse, or maintain a reusable linked knowledge network.
+description: Organize notes, sources, study material, research, and personal knowledge into flexible Obsidian knowledge graphs. Use when the user asks to structure Obsidian notes, create or revise a vault/MOC, organize a project map, turn content into Topic/Resource/Concept notes, add bidirectional links, reduce folder overuse, avoid rigid templates, or maintain a reusable linked knowledge network.
 ---
 
 # Obsidian Knowledge Graph
@@ -21,6 +21,8 @@ Use folders only for storage and broad grouping. Express knowledge relationships
 ## Note Types
 
 Classify every new item as one of three note types before writing.
+
+These structures are defaults, not mandatory templates. Adapt them to the material, the project stage, and the user's goal. Do not create empty sections or standalone notes just because a template contains them.
 
 ### Topic Notes
 
@@ -45,6 +47,8 @@ Use this structure:
 
 ## Next Directions
 ```
+
+For active projects, use the Topic note as a project map. Include only useful entry points that exist or are immediately actionable, such as current goals, key resources, decisions, experiments, code entry points, or open questions.
 
 ### Resource Notes
 
@@ -71,6 +75,8 @@ Use this structure:
 
 ## My Understanding
 ```
+
+Create Resource notes only when there is a real source to record. Do not invent Resource notes for papers, datasets, pages, or code files that have not been provided or found.
 
 ### Concept Notes
 
@@ -104,6 +110,29 @@ Use this structure:
 [[Concept C]]
 ```
 
+Create Concept notes gradually. Do not pre-create a large concept taxonomy before there is enough content to justify it.
+
+## Adaptive Project Rules
+
+Do not use one fixed folder or note template for every project. First inspect the available material and infer the project's actual shape.
+
+Use these defaults:
+
+- Research projects: prioritize project maps, papers, research questions, experiment records, and concepts that recur across sources.
+- Coding projects: prioritize architecture maps, key modules, setup/run notes, decisions, issues, and implementation records.
+- Study projects: prioritize course maps, core concepts, problem types, resources, and review records.
+- Application/planning projects: prioritize MOCs, requirements, deadlines, target lists, decisions, and action records.
+
+Start small. Add new notes only when they solve a navigation, reuse, or evidence problem.
+
+Avoid:
+
+- creating many empty concept pages upfront,
+- forcing every project into Topic/Resource/Concept folders immediately,
+- treating folder names as knowledge relationships,
+- converting speculative relationships into links,
+- adding "complete-looking" structures that the source material does not support.
+
 ## Folder Rules
 
 Do not use deep folder trees to express knowledge relationships.
@@ -129,6 +158,8 @@ Domain
 ```
 
 Do not treat folder location as semantic truth. A note's relationships must be visible through links in the note body.
+
+Folder layouts are optional scaffolding. If a project has only a few useful notes, keep the folder structure minimal.
 
 ## MOC Rules
 
@@ -206,13 +237,14 @@ Connect them with links.
 
 ## Workflow
 
-For each new piece of knowledge:
+For each new piece of knowledge or project:
 
-1. Decide whether it is a Topic, Resource, or Concept.
-2. Create or update the corresponding note.
-3. Extract reusable concepts.
-4. Add `[[bidirectional links]]`.
-5. Add entry points from the relevant MOC.
-6. Keep uncertain facts as `To confirm`.
+1. Inspect the actual material first: files, notes, sources, code, records, or user-provided text.
+2. Decide whether the material needs a Topic, Resource, Concept, project map, record, or no new note.
+3. Create or update only the notes that are currently useful.
+4. Extract reusable concepts only when they will recur or connect multiple notes.
+5. Add `[[bidirectional links]]` for confirmed relationships.
+6. Add entry points from the relevant MOC or project map.
+7. Keep uncertain facts as `To confirm` and avoid linking them as facts.
 
 The goal is not to build a file tree. The goal is to build a reusable knowledge network.
