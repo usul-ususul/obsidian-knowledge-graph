@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Knowledge Graph"
+  short_description: "Organize Obsidian notes as linked knowledge graphs"
+  default_prompt: "Use $obsidian-knowledge-graph to organize these notes into Topic, Resource, and Concept notes with Obsidian links."
